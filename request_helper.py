@@ -189,15 +189,20 @@ class RequestMock:
 
     @staticmethod
     def get_match(match_id):
-        with open('mock.json', 'r') as mock:
-            return json.load(mock)
+        with open('mock_match.json', 'r') as mock:
+            return json.load(mock)['data']['match']
 
     @staticmethod
     def get_match_rounds(match_id):
-        with open('math_rounds_mock.json', 'r') as mock:
-            return json.load(mock)
+        with open('match_rounds_mock.json', 'r') as mock:
+            return json.load(mock)['data']['match_rounds']
 
     @staticmethod
     def get_match_member_stats(match_id):
         with open('mock_match_member_stats.json', 'r') as mock:
-            return json.load(mock)
+            return json.load(mock)['data']['match_member_map_stats']
+
+    @staticmethod
+    def get_match_weapon_stats(match_id):
+        with open('match_weapons_stats.json', 'r') as mock:
+            return json.load(mock)['data']['match_weapons_stats']
