@@ -1,0 +1,626 @@
+{
+  "data": {
+    "match": {
+      "id": 8098261,
+      "type": "CUSTOM",
+      "status": "FINISHED",
+      "has_winner": true,
+      "cancellation_reason": null,
+      "started_at": "2022-04-18T17:19:15.279516+00:00",
+      "finished_at": "2022-04-18T18:09:03.875022+00:00",
+      "server_instance_id": 5738022,
+      "best_of": 1,
+      "max_rounds_count": 30,
+      "maps": [
+        {
+          "id": 8008562,
+          "number": 1,
+          "game_status": "FINISHED",
+          "started_at": "2022-04-18T17:19:15.279516+00:00",
+          "finished_at": "2022-04-18T18:09:03.875022+00:00",
+          "demo_url": "https://replays-europe.gameflare.io/5738022/8098261_8008562.dem",
+          "demo_deleted": false,
+          "map": {
+            "id": 20,
+            "name": "Overpass",
+            "raw_name": "de_overpass",
+            "offset": "(-4831,1781)",
+            "flip_v": false,
+            "flip_h": false,
+            "scale": 5.2,
+            "preview": "20_7m7n2n92h.jpeg",
+            "topview": "20_7m7n2ljb0.jpeg",
+            "overview": "20_7m7ncojk0.png",
+            "__typename": "maps"
+          },
+          "__typename": "match_maps"
+        }
+      ],
+      "game": {
+        "id": 1,
+        "raw_name": "csgo",
+        "__typename": "games"
+      },
+      "gameMode": {
+        "id": 9,
+        "team_size": 5,
+        "__typename": "game_match_modes"
+      },
+      "teams": [
+        {
+          "id": 16186562,
+          "captain_id": 1384948,
+          "name": "Team A",
+          "score": 16,
+          "size": 5,
+          "is_winner": true,
+          "initial_side": "CT",
+          "mapStats": [
+            {
+              "match_map_id": 8008562,
+              "match_team_id": 16186562,
+              "score": 16,
+              "is_winner": true,
+              "initial_side": "CT",
+              "__typename": "match_team_map_stats"
+            }
+          ],
+          "__typename": "match_teams"
+        },
+        {
+          "id": 16186563,
+          "captain_id": 1037720,
+          "name": "Team B",
+          "score": 13,
+          "size": 5,
+          "is_winner": false,
+          "initial_side": "TT",
+          "mapStats": [
+            {
+              "match_map_id": 8008562,
+              "match_team_id": 16186563,
+              "score": 13,
+              "is_winner": false,
+              "initial_side": "TT",
+              "__typename": "match_team_map_stats"
+            }
+          ],
+          "__typename": "match_teams"
+        }
+      ],
+      "members": [
+        {
+          "private": {
+            "user": {
+              "id": 1211132,
+              "nickName": "MaRKoN",
+              "avatar": "1211132_7nbh2h78j.jpg",
+              "online": true,
+              "isMobile": false,
+              "link": null,
+              "__typename": "users",
+              "stats": [],
+              "city": {
+                "id": 524901,
+                "regionID": 524894,
+                "name_ru": "Москва",
+                "name_uk": "Москва",
+                "name_en": "Moscow",
+                "name_de": "Moskau",
+                "name_pl": "Moskwa",
+                "name_pt": "Moscovo",
+                "name_es": "Moscú",
+                "name_hbs": "Moskva",
+                "name_tr": "Moskova",
+                "__typename": "cities"
+              },
+              "country": {
+                "id": 2017370,
+                "name_ru": "Россия",
+                "name_uk": "Російська Федерація",
+                "name_en": "Russia",
+                "name_de": "Russland",
+                "name_pl": "Rosja",
+                "name_pt": "Rússia",
+                "name_es": "Rusia",
+                "name_hbs": "Rusija",
+                "name_tr": "Rusya",
+                "iso2": "RU",
+                "__typename": "countries"
+              },
+              "bans": []
+            },
+            "party_id": null,
+            "rating": 1000,
+            "__typename": "match_members_private"
+          },
+          "role": "STARTER",
+          "match_team_id": 16186562,
+          "rating_diff": null,
+          "connected": true,
+          "is_leaver": false,
+          "impact": null,
+          "__typename": "match_members"
+        },
+        {
+          "private": {
+            "user": {
+              "id": 1037720,
+              "nickName": "MoX",
+              "avatar": "1037720_7leodp89i.jpg",
+              "online": false,
+              "isMobile": false,
+              "link": null,
+              "__typename": "users",
+              "stats": [],
+              "city": {
+                "id": 1526273,
+                "regionID": 1538317,
+                "name_ru": "Нур-Султан",
+                "name_uk": "Нур-Султан",
+                "name_en": "Nur-Sultan",
+                "name_de": "Nur-Sultan",
+                "name_pl": "Astana",
+                "name_pt": "Nur-Sultan",
+                "name_es": "Nur-Sultán",
+                "name_hbs": null,
+                "name_tr": "Nur-Sultan",
+                "__typename": "cities"
+              },
+              "country": {
+                "id": 1522867,
+                "name_ru": "Казахстан",
+                "name_uk": "Казахстан",
+                "name_en": "Kazakhstan",
+                "name_de": "Kasachstan",
+                "name_pl": "Kazachstan",
+                "name_pt": "Cazaquistão",
+                "name_es": "Kazajstán",
+                "name_hbs": "Kazahstan",
+                "name_tr": "Kazakistan",
+                "iso2": "KZ",
+                "__typename": "countries"
+              },
+              "bans": []
+            },
+            "party_id": null,
+            "rating": 1000,
+            "__typename": "match_members_private"
+          },
+          "role": "STARTER",
+          "match_team_id": 16186563,
+          "rating_diff": null,
+          "connected": true,
+          "is_leaver": false,
+          "impact": null,
+          "__typename": "match_members"
+        },
+        {
+          "private": {
+            "user": {
+              "id": 1476712,
+              "nickName": "Kev1nGarnett",
+              "avatar": "1476712_7mk2dcfcg.jpg",
+              "online": true,
+              "isMobile": false,
+              "link": null,
+              "__typename": "users",
+              "stats": [],
+              "city": {
+                "id": 1502026,
+                "regionID": 1502020,
+                "name_ru": "Красноярск",
+                "name_uk": null,
+                "name_en": "Krasnoyarsk",
+                "name_de": "Krasnojarsk",
+                "name_pl": null,
+                "name_pt": null,
+                "name_es": null,
+                "name_hbs": null,
+                "name_tr": null,
+                "__typename": "cities"
+              },
+              "country": {
+                "id": 2017370,
+                "name_ru": "Россия",
+                "name_uk": "Російська Федерація",
+                "name_en": "Russia",
+                "name_de": "Russland",
+                "name_pl": "Rosja",
+                "name_pt": "Rússia",
+                "name_es": "Rusia",
+                "name_hbs": "Rusija",
+                "name_tr": "Rusya",
+                "iso2": "RU",
+                "__typename": "countries"
+              },
+              "bans": []
+            },
+            "party_id": null,
+            "rating": 1000,
+            "__typename": "match_members_private"
+          },
+          "role": "STARTER",
+          "match_team_id": 16186563,
+          "rating_diff": null,
+          "connected": true,
+          "is_leaver": false,
+          "impact": null,
+          "__typename": "match_members"
+        },
+        {
+          "private": {
+            "user": {
+              "id": 1384948,
+              "nickName": "Kenwo0dWow",
+              "avatar": "1384948_7nbh383jb.jpg",
+              "online": true,
+              "isMobile": false,
+              "link": null,
+              "__typename": "users",
+              "stats": [],
+              "city": {
+                "id": 1526273,
+                "regionID": 1538317,
+                "name_ru": "Нур-Султан",
+                "name_uk": "Нур-Султан",
+                "name_en": "Nur-Sultan",
+                "name_de": "Nur-Sultan",
+                "name_pl": "Astana",
+                "name_pt": "Nur-Sultan",
+                "name_es": "Nur-Sultán",
+                "name_hbs": null,
+                "name_tr": "Nur-Sultan",
+                "__typename": "cities"
+              },
+              "country": {
+                "id": 1522867,
+                "name_ru": "Казахстан",
+                "name_uk": "Казахстан",
+                "name_en": "Kazakhstan",
+                "name_de": "Kasachstan",
+                "name_pl": "Kazachstan",
+                "name_pt": "Cazaquistão",
+                "name_es": "Kazajstán",
+                "name_hbs": "Kazahstan",
+                "name_tr": "Kazakistan",
+                "iso2": "KZ",
+                "__typename": "countries"
+              },
+              "bans": []
+            },
+            "party_id": 4631203,
+            "rating": 1000,
+            "__typename": "match_members_private"
+          },
+          "role": "STARTER",
+          "match_team_id": 16186562,
+          "rating_diff": null,
+          "connected": true,
+          "is_leaver": false,
+          "impact": null,
+          "__typename": "match_members"
+        },
+        {
+          "private": {
+            "user": {
+              "id": 669457,
+              "nickName": "Aka_",
+              "avatar": "669457_7ieb124b5.jpg",
+              "online": false,
+              "isMobile": true,
+              "link": null,
+              "__typename": "users",
+              "stats": [],
+              "city": {
+                "id": 1526273,
+                "regionID": 1538317,
+                "name_ru": "Нур-Султан",
+                "name_uk": "Нур-Султан",
+                "name_en": "Nur-Sultan",
+                "name_de": "Nur-Sultan",
+                "name_pl": "Astana",
+                "name_pt": "Nur-Sultan",
+                "name_es": "Nur-Sultán",
+                "name_hbs": null,
+                "name_tr": "Nur-Sultan",
+                "__typename": "cities"
+              },
+              "country": {
+                "id": 1522867,
+                "name_ru": "Казахстан",
+                "name_uk": "Казахстан",
+                "name_en": "Kazakhstan",
+                "name_de": "Kasachstan",
+                "name_pl": "Kazachstan",
+                "name_pt": "Cazaquistão",
+                "name_es": "Kazajstán",
+                "name_hbs": "Kazahstan",
+                "name_tr": "Kazakistan",
+                "iso2": "KZ",
+                "__typename": "countries"
+              },
+              "bans": []
+            },
+            "party_id": null,
+            "rating": 1000,
+            "__typename": "match_members_private"
+          },
+          "role": "STARTER",
+          "match_team_id": 16186562,
+          "rating_diff": null,
+          "connected": true,
+          "is_leaver": false,
+          "impact": null,
+          "__typename": "match_members"
+        },
+        {
+          "private": {
+            "user": {
+              "id": 1082207,
+              "nickName": "NE_REGAET",
+              "avatar": "1082207_7jlj0fpak.jpg",
+              "online": false,
+              "isMobile": false,
+              "link": null,
+              "__typename": "users",
+              "stats": [],
+              "city": {
+                "id": 1526384,
+                "regionID": 1526395,
+                "name_ru": "Алматы",
+                "name_uk": "Алмати",
+                "name_en": "Almaty",
+                "name_de": "Almaty",
+                "name_pl": "Ałmaty",
+                "name_pt": "Almaty",
+                "name_es": "Almatý",
+                "name_hbs": null,
+                "name_tr": "Almatı",
+                "__typename": "cities"
+              },
+              "country": {
+                "id": 1522867,
+                "name_ru": "Казахстан",
+                "name_uk": "Казахстан",
+                "name_en": "Kazakhstan",
+                "name_de": "Kasachstan",
+                "name_pl": "Kazachstan",
+                "name_pt": "Cazaquistão",
+                "name_es": "Kazajstán",
+                "name_hbs": "Kazahstan",
+                "name_tr": "Kazakistan",
+                "iso2": "KZ",
+                "__typename": "countries"
+              },
+              "bans": []
+            },
+            "party_id": null,
+            "rating": 1000,
+            "__typename": "match_members_private"
+          },
+          "role": "STARTER",
+          "match_team_id": 16186562,
+          "rating_diff": null,
+          "connected": true,
+          "is_leaver": false,
+          "impact": null,
+          "__typename": "match_members"
+        },
+        {
+          "private": {
+            "user": {
+              "id": 1037733,
+              "nickName": "abylay1997",
+              "avatar": "1037733_7jfk7cpli.jpg",
+              "online": true,
+              "isMobile": false,
+              "link": null,
+              "__typename": "users",
+              "stats": [],
+              "city": {
+                "id": 1526273,
+                "regionID": 1538317,
+                "name_ru": "Нур-Султан",
+                "name_uk": "Нур-Султан",
+                "name_en": "Nur-Sultan",
+                "name_de": "Nur-Sultan",
+                "name_pl": "Astana",
+                "name_pt": "Nur-Sultan",
+                "name_es": "Nur-Sultán",
+                "name_hbs": null,
+                "name_tr": "Nur-Sultan",
+                "__typename": "cities"
+              },
+              "country": {
+                "id": 1522867,
+                "name_ru": "Казахстан",
+                "name_uk": "Казахстан",
+                "name_en": "Kazakhstan",
+                "name_de": "Kasachstan",
+                "name_pl": "Kazachstan",
+                "name_pt": "Cazaquistão",
+                "name_es": "Kazajstán",
+                "name_hbs": "Kazahstan",
+                "name_tr": "Kazakistan",
+                "iso2": "KZ",
+                "__typename": "countries"
+              },
+              "bans": []
+            },
+            "party_id": null,
+            "rating": 1000,
+            "__typename": "match_members_private"
+          },
+          "role": "STARTER",
+          "match_team_id": 16186563,
+          "rating_diff": null,
+          "connected": true,
+          "is_leaver": false,
+          "impact": null,
+          "__typename": "match_members"
+        },
+        {
+          "private": {
+            "user": {
+              "id": 1151838,
+              "nickName": "DoGGe_00",
+              "avatar": "1151838_7k681a2o4.jpg",
+              "online": false,
+              "isMobile": false,
+              "link": null,
+              "__typename": "users",
+              "stats": [],
+              "city": {
+                "id": 610611,
+                "regionID": 610688,
+                "name_ru": "Актобе",
+                "name_uk": null,
+                "name_en": "Aktobe",
+                "name_de": "Aqtöbe",
+                "name_pl": "Aktiube",
+                "name_pt": "Aqtöbe",
+                "name_es": null,
+                "name_hbs": null,
+                "name_tr": null,
+                "__typename": "cities"
+              },
+              "country": {
+                "id": 1522867,
+                "name_ru": "Казахстан",
+                "name_uk": "Казахстан",
+                "name_en": "Kazakhstan",
+                "name_de": "Kasachstan",
+                "name_pl": "Kazachstan",
+                "name_pt": "Cazaquistão",
+                "name_es": "Kazajstán",
+                "name_hbs": "Kazahstan",
+                "name_tr": "Kazakistan",
+                "iso2": "KZ",
+                "__typename": "countries"
+              },
+              "bans": []
+            },
+            "party_id": null,
+            "rating": 1000,
+            "__typename": "match_members_private"
+          },
+          "role": "STARTER",
+          "match_team_id": 16186563,
+          "rating_diff": null,
+          "connected": true,
+          "is_leaver": false,
+          "impact": null,
+          "__typename": "match_members"
+        },
+        {
+          "private": {
+            "user": {
+              "id": 547385,
+              "nickName": "TOMMY | 23",
+              "avatar": "547385_7nbgo0cj2.jpg",
+              "online": true,
+              "isMobile": false,
+              "link": null,
+              "__typename": "users",
+              "stats": [],
+              "city": {
+                "id": 1526273,
+                "regionID": 1538317,
+                "name_ru": "Нур-Султан",
+                "name_uk": "Нур-Султан",
+                "name_en": "Nur-Sultan",
+                "name_de": "Nur-Sultan",
+                "name_pl": "Astana",
+                "name_pt": "Nur-Sultan",
+                "name_es": "Nur-Sultán",
+                "name_hbs": null,
+                "name_tr": "Nur-Sultan",
+                "__typename": "cities"
+              },
+              "country": {
+                "id": 1522867,
+                "name_ru": "Казахстан",
+                "name_uk": "Казахстан",
+                "name_en": "Kazakhstan",
+                "name_de": "Kasachstan",
+                "name_pl": "Kazachstan",
+                "name_pt": "Cazaquistão",
+                "name_es": "Kazajstán",
+                "name_hbs": "Kazahstan",
+                "name_tr": "Kazakistan",
+                "iso2": "KZ",
+                "__typename": "countries"
+              },
+              "bans": []
+            },
+            "party_id": null,
+            "rating": 1000,
+            "__typename": "match_members_private"
+          },
+          "role": "STARTER",
+          "match_team_id": 16186563,
+          "rating_diff": null,
+          "connected": true,
+          "is_leaver": false,
+          "impact": null,
+          "__typename": "match_members"
+        },
+        {
+          "private": {
+            "user": {
+              "id": 1037810,
+              "nickName": "rckstr",
+              "avatar": "1037810_7jfk9mml1.jpg",
+              "online": true,
+              "isMobile": false,
+              "link": null,
+              "__typename": "users",
+              "stats": [],
+              "city": {
+                "id": 1526273,
+                "regionID": 1538317,
+                "name_ru": "Нур-Султан",
+                "name_uk": "Нур-Султан",
+                "name_en": "Nur-Sultan",
+                "name_de": "Nur-Sultan",
+                "name_pl": "Astana",
+                "name_pt": "Nur-Sultan",
+                "name_es": "Nur-Sultán",
+                "name_hbs": null,
+                "name_tr": "Nur-Sultan",
+                "__typename": "cities"
+              },
+              "country": {
+                "id": 1522867,
+                "name_ru": "Казахстан",
+                "name_uk": "Казахстан",
+                "name_en": "Kazakhstan",
+                "name_de": "Kasachstan",
+                "name_pl": "Kazachstan",
+                "name_pt": "Cazaquistão",
+                "name_es": "Kazajstán",
+                "name_hbs": "Kazahstan",
+                "name_tr": "Kazakistan",
+                "iso2": "KZ",
+                "__typename": "countries"
+              },
+              "bans": []
+            },
+            "party_id": null,
+            "rating": 1000,
+            "__typename": "match_members_private"
+          },
+          "role": "STARTER",
+          "match_team_id": 16186562,
+          "rating_diff": null,
+          "connected": true,
+          "is_leaver": false,
+          "impact": null,
+          "__typename": "match_members"
+        }
+      ],
+      "__typename": "matches"
+    }
+  }
+}

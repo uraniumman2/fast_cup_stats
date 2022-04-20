@@ -1,0 +1,566 @@
+{
+  "data": {
+    "weapons": [
+      {
+        "id": 35,
+        "name": "knife_survival_bowie",
+        "internal_name": "knife_survival_bowie",
+        "visible": false,
+        "__typename": "weapons"
+      },
+      {
+        "id": 105,
+        "name": "knife_canis",
+        "internal_name": "knife_canis",
+        "visible": false,
+        "__typename": "weapons"
+      },
+      {
+        "id": 106,
+        "name": "knife_cord",
+        "internal_name": "knife_cord",
+        "visible": false,
+        "__typename": "weapons"
+      },
+      {
+        "id": 107,
+        "name": "knife_outdoor",
+        "internal_name": "knife_outdoor",
+        "visible": false,
+        "__typename": "weapons"
+      },
+      {
+        "id": 108,
+        "name": "knife_skeleton",
+        "internal_name": "knife_skeleton",
+        "visible": false,
+        "__typename": "weapons"
+      },
+      {
+        "id": 104,
+        "name": "Classic Knife",
+        "internal_name": "knife_css",
+        "visible": false,
+        "__typename": "weapons"
+      },
+      {
+        "id": 37,
+        "name": "PP-Bizon",
+        "internal_name": "bizon",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 25,
+        "name": "SCAR-20",
+        "internal_name": "scar20",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 18,
+        "name": "MP9",
+        "internal_name": "mp9",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 72,
+        "name": "Molotov cocktail",
+        "internal_name": "molotov",
+        "visible": false,
+        "__typename": "weapons"
+      },
+      {
+        "id": 8,
+        "name": "Five-SeveN",
+        "internal_name": "fiveseven",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 2,
+        "name": "Dual Berettas",
+        "internal_name": "elite",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 73,
+        "name": "Zeus x27",
+        "internal_name": "taser",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 67,
+        "name": "Smoke grenade",
+        "internal_name": "smokegrenade",
+        "visible": false,
+        "__typename": "weapons"
+      },
+      {
+        "id": 23,
+        "name": "P90",
+        "internal_name": "p90",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 5,
+        "name": "AWP",
+        "internal_name": "awp",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 34,
+        "name": "shield",
+        "internal_name": "shield",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 7,
+        "name": "FAMAS",
+        "internal_name": "famas",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 14,
+        "name": "M4A4",
+        "internal_name": "m4a1",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 20,
+        "name": "Nova",
+        "internal_name": "nova",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 4,
+        "name": "AUG",
+        "internal_name": "aug",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 29,
+        "name": "UMP-45",
+        "internal_name": "ump45",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 22,
+        "name": "P250",
+        "internal_name": "p250",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 16,
+        "name": "MAG-7",
+        "internal_name": "mag7",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 39,
+        "name": "Knife",
+        "internal_name": "knife",
+        "visible": false,
+        "__typename": "weapons"
+      },
+      {
+        "id": 24,
+        "name": "Sawed-Off",
+        "internal_name": "sawedoff",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 11,
+        "name": "Glock-18",
+        "internal_name": "glock",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 12,
+        "name": "M249",
+        "internal_name": "m249",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 33,
+        "name": "MP5-SD",
+        "internal_name": "mp5sd",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 3,
+        "name": "AK-47",
+        "internal_name": "ak47",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 70,
+        "name": "Decoy grenade",
+        "internal_name": "decoy",
+        "visible": false,
+        "__typename": "weapons"
+      },
+      {
+        "id": 26,
+        "name": "SG 553",
+        "internal_name": "sg556",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 71,
+        "name": "Incendiary grenade",
+        "internal_name": "incgrenade",
+        "visible": false,
+        "__typename": "weapons"
+      },
+      {
+        "id": 21,
+        "name": "P2000",
+        "internal_name": "hkp2000",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 68,
+        "name": "HE grenade",
+        "internal_name": "hegrenade",
+        "visible": false,
+        "__typename": "weapons"
+      },
+      {
+        "id": 1,
+        "name": "Desert Eagle",
+        "internal_name": "deagle",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 38,
+        "name": "R8 Revolver",
+        "internal_name": "revolver",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 17,
+        "name": "MP7",
+        "internal_name": "mp7",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 13,
+        "name": "M4A1-S",
+        "internal_name": "m4a1_silencer",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 6,
+        "name": "CZ75-Auto",
+        "internal_name": "cz75a",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 36,
+        "name": "diversion",
+        "internal_name": "diversion",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 9,
+        "name": "G3SG1",
+        "internal_name": "g3sg1",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 15,
+        "name": "MAC-10",
+        "internal_name": "mac10",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 31,
+        "name": "XM1014",
+        "internal_name": "xm1014",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 86,
+        "name": "knife_widowmaker",
+        "internal_name": "knife_widowmaker",
+        "visible": false,
+        "__typename": "weapons"
+      },
+      {
+        "id": 85,
+        "name": "firebomb",
+        "internal_name": "firebomb",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 77,
+        "name": "bayonet",
+        "internal_name": "bayonet",
+        "visible": false,
+        "__typename": "weapons"
+      },
+      {
+        "id": 90,
+        "name": "knife_falchion",
+        "internal_name": "knife_falchion",
+        "visible": false,
+        "__typename": "weapons"
+      },
+      {
+        "id": 99,
+        "name": "knife_ursus",
+        "internal_name": "knife_ursus",
+        "visible": false,
+        "__typename": "weapons"
+      },
+      {
+        "id": 82,
+        "name": "knife_tactical",
+        "internal_name": "knife_tactical",
+        "visible": false,
+        "__typename": "weapons"
+      },
+      {
+        "id": 80,
+        "name": "knife_karambit",
+        "internal_name": "knife_karambit",
+        "visible": false,
+        "__typename": "weapons"
+      },
+      {
+        "id": 88,
+        "name": "knife_butterfly",
+        "internal_name": "knife_butterfly",
+        "visible": false,
+        "__typename": "weapons"
+      },
+      {
+        "id": 84,
+        "name": "knife_flip",
+        "internal_name": "knife_flip",
+        "visible": false,
+        "__typename": "weapons"
+      },
+      {
+        "id": 93,
+        "name": "knife_push",
+        "internal_name": "knife_push",
+        "visible": false,
+        "__typename": "weapons"
+      },
+      {
+        "id": 91,
+        "name": "knife_gut",
+        "internal_name": "knife_gut",
+        "visible": false,
+        "__typename": "weapons"
+      },
+      {
+        "id": 95,
+        "name": "knife_gypsy_jackknife",
+        "internal_name": "knife_gypsy_jackknife",
+        "visible": false,
+        "__typename": "weapons"
+      },
+      {
+        "id": 89,
+        "name": "knife_m9_bayonet",
+        "internal_name": "knife_m9_bayonet",
+        "visible": false,
+        "__typename": "weapons"
+      },
+      {
+        "id": 100,
+        "name": "knife_stiletto",
+        "internal_name": "knife_stiletto",
+        "visible": false,
+        "__typename": "weapons"
+      },
+      {
+        "id": 97,
+        "name": "knifegg",
+        "internal_name": "knifegg",
+        "visible": false,
+        "__typename": "weapons"
+      },
+      {
+        "id": 96,
+        "name": "knife_ghost",
+        "internal_name": "knife_ghost",
+        "visible": false,
+        "__typename": "weapons"
+      },
+      {
+        "id": 98,
+        "name": "knife_t",
+        "internal_name": "knife_t",
+        "visible": false,
+        "__typename": "weapons"
+      },
+      {
+        "id": 28,
+        "name": "Tec-9",
+        "internal_name": "tec9",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 69,
+        "name": "Flashbang",
+        "internal_name": "flashbang",
+        "visible": false,
+        "__typename": "weapons"
+      },
+      {
+        "id": 102,
+        "name": "healthshot",
+        "internal_name": "healthshot",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 27,
+        "name": "SSG 08",
+        "internal_name": "ssg08",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 10,
+        "name": "Galil AR",
+        "internal_name": "galilar",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 19,
+        "name": "Negev",
+        "internal_name": "negev",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 101,
+        "name": "snowball",
+        "internal_name": "snowball",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 76,
+        "name": "fists",
+        "internal_name": "fists",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 79,
+        "name": "spanner",
+        "internal_name": "spanner",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 75,
+        "name": "c4",
+        "internal_name": "c4",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 30,
+        "name": "USP-S",
+        "internal_name": "usp_silencer",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 94,
+        "name": "hammer",
+        "internal_name": "hammer",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 87,
+        "name": "breachcharge",
+        "internal_name": "breachcharge",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 81,
+        "name": "axe",
+        "internal_name": "axe",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 83,
+        "name": "tablet",
+        "internal_name": "tablet",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 103,
+        "name": "tagrenade",
+        "internal_name": "tagrenade",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 92,
+        "name": "bumpmine",
+        "internal_name": "bumpmine",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 74,
+        "name": "frag_grenade",
+        "internal_name": "frag_grenade",
+        "visible": true,
+        "__typename": "weapons"
+      },
+      {
+        "id": 78,
+        "name": "melee",
+        "internal_name": "melee",
+        "visible": true,
+        "__typename": "weapons"
+      }
+    ]
+  }
+}
