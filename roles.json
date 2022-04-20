@@ -1,0 +1,52 @@
+{
+  "1211132": {
+    "role": "riffle",
+    "grenade":true,
+    "capitan": false
+  },
+  "1037720": {
+    "role": "riffle",
+    "grenade": true,
+    "capitan":  true
+  },
+  "1476712": {
+    "role": "supp",
+    "grenade": true,
+    "capitan":  false
+  },
+  "1384948": {
+    "role": "riffle",
+    "grenade": true,
+    "capitan":  false
+  },
+  "669457": {
+    "role": "riffle",
+    "grenade": true,
+    "capitan":  true
+  },
+  "1082207": {
+    "role": "awp",
+    "grenade": true,
+    "capitan":  false
+  },
+  "1037733": {
+    "role": "supp",
+    "grenade": false,
+    "capitan":  false
+  },
+  "1151838": {
+    "role": "supp",
+    "grenade": true,
+    "capitan":  false
+  },
+  "547385": {
+    "role": "awp",
+    "grenade": true,
+    "capitan":  true
+  },
+  "1037810": {
+    "role": "riffle",
+    "grenade": true,
+    "capitan":  false
+  }
+}
