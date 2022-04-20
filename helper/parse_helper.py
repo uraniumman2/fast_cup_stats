@@ -3,7 +3,7 @@ class ParseHelper:
     @staticmethod
     def parse_match(match):
         match_ = {'id': match['id'],
-                  'members': [{'id': member['private']['user']['id'], 'nickname': member['private']['user']['nickName']}
+                  'members': [{'user_id': member['private']['user']['id'], 'nickname': member['private']['user']['nickName']}
                               for member in
                               match['members']]}
         return match_

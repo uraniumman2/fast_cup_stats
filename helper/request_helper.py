@@ -97,7 +97,7 @@ class RequestHelper:
                                  json=json_data)
 
     @staticmethod
-    def get_match_member_stats():
+    def get_match_member_stats(match_id):
         cookies = {
             'dark-theme': '1',
             'sid': '5655600.G9LnnerUnPIAASQs4uW0stFCk9Yx%2FSzg2LB8qW72WYA',
@@ -141,7 +141,7 @@ class RequestHelper:
                                  json=json_data)
 
     @staticmethod
-    def get_match_weapon_stats():
+    def get_match_weapon_stats(match_id):
         cookies = {
             'dark-theme': '1',
             'sid': '5655600.G9LnnerUnPIAASQs4uW0stFCk9Yx%2FSzg2LB8qW72WYA',
@@ -189,20 +189,20 @@ class RequestMock:
 
     @staticmethod
     def get_match(match_id):
-        with open('mock/mock_match.json', 'r') as mock:
+        with open('./mock/mock_match.json', 'r') as mock:
             return json.load(mock)['data']['match']
 
     @staticmethod
     def get_match_rounds(match_id):
-        with open('mock/match_rounds_mock.json', 'r') as mock:
+        with open('./mock/match_rounds_mock.json', 'r') as mock:
             return json.load(mock)['data']['match_rounds']
 
     @staticmethod
     def get_match_member_stats(match_id):
-        with open('mock/mock_match_member_stats.json', 'r') as mock:
+        with open('./mock/mock_match_member_stats.json', 'r') as mock:
             return json.load(mock)['data']['match_member_map_stats']
 
     @staticmethod
     def get_match_weapon_stats(match_id):
-        with open('mock/match_weapons_stats.json', 'r') as mock:
+        with open('./mock/match_weapons_stats.json', 'r') as mock:
             return json.load(mock)['data']['match_weapons_stats']
