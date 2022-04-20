@@ -41,8 +41,7 @@ class CalculationHelper:
         if role == Role.SUPPORT:
             clutch_rate *= 1.21
             fd = 0
-        if str(user_id) == "1037733":
-            print(f"uid={user_id} fk={fk} fd={fd} cr={clutch_rate} role={role}")
+
         multi_kill = m5 * 0.05 + m4 * 0.04 + m3 * 0.03 + m2 * 0.02 + m1 * 0.01
 
         basic = kd * 0.2 + adr * 0.2 + fk - fd + clutch_rate + multi_kill

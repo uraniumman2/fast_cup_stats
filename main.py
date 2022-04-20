@@ -3,7 +3,7 @@ import json
 
 from helper.calculation_helper import CalculationHelper
 from helper.parse_helper import ParseHelper
-from helper.request_helper import RequestMock
+from helper.request_helper import RequestMock, RequestHelper
 from utils.exceptions import MatchNotFound
 from utils.utils import get_match_id
 
@@ -13,9 +13,10 @@ def main():
     match_id = get_match_id(url)
     if match_id is None:
         raise MatchNotFound
-    match = RequestMock.get_match(match_id)
-    match_member_stats = RequestMock.get_match_member_stats(match_id)
-    match_weapon_stats = RequestMock.get_match_weapon_stats(match_id)
+    request_helper = RequestHelper()
+    match = request_helper.get_match(match_id)
+    match_member_stats = request_helper.get_match_member_stats(match_id)
+    match_weapon_stats = request_helper.get_match_weapon_stats(match_id)
 
     with open('extra_info.json', 'r') as extra_info_fp:
         extra_info = json.load(extra_info_fp)
