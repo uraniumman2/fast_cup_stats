@@ -4,6 +4,7 @@ import json
 from helper.calculation_helper import CalculationHelper
 from helper.parse_helper import ParseHelper
 from helper.request_helper import RequestMock, RequestHelper
+from utils.excel import export_to_excel
 from utils.exceptions import MatchNotFound
 from utils.utils import get_match_id
 
@@ -26,8 +27,7 @@ def main():
 
     scores = CalculationHelper.calculate_score(mms, match_weapon_stats, extra_info)
 
-    for member in match_['members']:
-        print(member['nickname'], round(scores[member['user_id']]['total'], 3))
+    export_to_excel(match_, scores)
 
 
 if __name__ == '__main__':
