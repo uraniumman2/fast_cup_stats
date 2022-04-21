@@ -23,11 +23,13 @@ def main():
         extra_info = json.load(extra_info_fp)
 
     match_ = ParseHelper.parse_match(match)
-    mms = ParseHelper.parse_match_member_stats(match_member_stats)
-
-    scores = CalculationHelper.calculate_score(mms, match_weapon_stats, extra_info)
-
-    export_to_excel(match_, scores)
+    data = []
+    for map_ in match_['maps']:
+        mms = ParseHelper.parse_match_member_stats(match_member_stats, map_['id'])
+        mws = ParseHelper.parse_match_weapon_stats(match_weapon_stats, map_['id'])
+        scores = CalculationHelper.calculate_score(mms, mws, extra_info)
+        data.append({'map': map_['name'], 'scores': scores})
+    export_to_excel(match_, data)
 
 
 if __name__ == '__main__':
