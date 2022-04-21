@@ -1,4 +1,19 @@
 {
+  "1029423": {
+    "role": "riffle",
+    "grenade":true,
+    "capitan": false
+  },
+  "1218961": {
+    "role": "supp",
+    "grenade": false,
+    "capitan": false
+  },
+  "1422416": {
+    "role": "riffle",
+    "grenade":true,
+    "capitan": false
+  },
   "1211132": {
     "role": "riffle",
     "grenade":true,

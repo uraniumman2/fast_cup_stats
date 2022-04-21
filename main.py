@@ -10,7 +10,7 @@ from utils.utils import get_match_id
 
 
 def main():
-    url = 'https://csgo.fastcup.net/match8098261'
+    url = 'https://csgo.fastcup.net/match8108380'
     match_id = get_match_id(url)
     if match_id is None:
         raise MatchNotFound
