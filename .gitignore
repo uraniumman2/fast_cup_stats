@@ -5,6 +5,7 @@ __pycache__/
 polygon.py
 # C extensions
 *.so
+*.xls
 .idea
 # Distribution / packaging
 .Python
